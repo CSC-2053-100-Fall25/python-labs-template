@@ -59,7 +59,7 @@ Write reusable functions and work with files to prepare for real data analysis.
 4. **Save your work** back to your repository:
 
 ####   
-# Clone your repository
+  Clone your repository
   git clone [your-repo-url]
   cd [repo-name]
 
