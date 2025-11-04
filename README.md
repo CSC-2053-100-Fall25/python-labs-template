@@ -62,8 +62,8 @@ Write reusable functions and work with files to prepare for real data analysis.
   git clone [your-repo-url]
   cd [repo-name]
 
-  **Copy your .ipynb file into this folder**
-  **Then:**
+  **Copy your .ipynb file into the folder you are currently in inside your terminal**
+
   git add *.ipynb
   git commit -m "Completed assignment"
   git push
