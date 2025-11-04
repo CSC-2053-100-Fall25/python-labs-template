@@ -42,25 +42,11 @@ Write reusable functions and work with files to prepare for real data analysis.
 
 ## Getting Started
 
-### Option 1: Google Colab (Recommended)
+### Google Colab 
 1. Click the "Open in Colab" badge for any lab above
 2. **File → Save a copy in Drive** (IMPORTANT!)
 3. Work on your copy
 4. Your work auto-saves to your Google Drive
-
-### Option 2: Local Jupyter
-If you prefer to work locally:
-```bash
-# Clone this repository
-git clone YOUR_REPO_URL
-
-# Install Jupyter
-pip install jupyter
-
-# Start Jupyter
-jupyter notebook
-```
-
 ---
 
 ## Submission Instructions
@@ -72,20 +58,18 @@ jupyter notebook
 3. **Complete the labs** in Google Colab
 4. **Save your work** back to your repository:
 
-#### Method A: Download and Upload
-- In Colab: File → Download → Download .ipynb
-- Go to your GitHub repository
-- Click "Add file" → "Upload files"
-- Upload your completed notebooks
-- Add a commit message like "Completed Lab 1"
-- Click "Commit changes"
+####   
+# Clone your repository
+  git clone [your-repo-url]
+  cd [repo-name]
 
-#### Method B: Save to GitHub from Colab
-- In Colab: File → Save a copy in GitHub
-- Select your assignment repository
-- Choose the correct branch (usually `main`)
-- Add a commit message
-- Click OK
+  # Copy your .ipynb file into this folder
+  # Then:
+  git add *.ipynb
+  git commit -m "Completed assignment"
+  git push
+
+
 
 ---
 
