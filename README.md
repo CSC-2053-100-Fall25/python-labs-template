@@ -57,14 +57,13 @@ Write reusable functions and work with files to prepare for real data analysis.
 2. This creates your personal repository
 3. **Complete the labs** in Google Colab
 4. **Save your work** back to your repository:
-
-####   
+ 
   Clone your repository
   git clone [your-repo-url]
   cd [repo-name]
 
-  # Copy your .ipynb file into this folder
-  # Then:
+  **Copy your .ipynb file into this folder
+  **Then:
   git add *.ipynb
   git commit -m "Completed assignment"
   git push
