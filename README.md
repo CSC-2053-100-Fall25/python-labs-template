@@ -104,8 +104,6 @@ Write reusable functions and work with files to prepare for real data analysis.
 
 - [Python Documentation](https://docs.python.org/3/)
 - [Google Colab Guide](https://colab.research.google.com/notebooks/intro.ipynb)
-- Office Hours: [Check Canvas for times]
-
 ---
 
 
