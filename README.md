@@ -1,4 +1,4 @@
-# Python Labs - CSC 2053
+# Python Lab 11 - CSC 2053
 ## Villanova University - Fall 2025
 
 These hands-on notebooks will teach you Python fundamentals and prepare you for data analysis with pandas and numpy.
@@ -42,11 +42,11 @@ Write reusable functions and work with files to prepare for real data analysis.
 
 ## Getting Started
 
-### Google Colab 
 1. Click the "Open in Colab" badge for any lab above
 2. **File → Save a copy in Drive** (IMPORTANT!)
 3. Work on your copy
 4. Your work auto-saves to your Google Drive
+
 ---
 
 ## Submission Instructions
@@ -57,18 +57,18 @@ Write reusable functions and work with files to prepare for real data analysis.
 2. This creates your personal repository
 3. **Complete the labs** in Google Colab
 4. **Save your work** back to your repository:
- 
-  Clone your repository
-  git clone [your-repo-url]
-  cd [repo-name]
 
-  **Copy your .ipynb file into the folder you are currently in inside your terminal**
+#### Download and Upload
+- In Colab: File → Download → Download .ipynb
+- Clone your repository
+- git clone [your-repo-url]
+- cd [repo-name]
 
-  git add *.ipynb
-  git commit -m "Completed assignment"
-  git push
-
-
+  **Copy your .ipynb file into this folder**
+  
+- git add *.ipynb
+- git commit -m "Completed assignment"
+- git push 
 
 ---
 
@@ -104,6 +104,8 @@ Write reusable functions and work with files to prepare for real data analysis.
 
 - [Python Documentation](https://docs.python.org/3/)
 - [Google Colab Guide](https://colab.research.google.com/notebooks/intro.ipynb)
+
+
 ---
 
 
