@@ -27,7 +27,7 @@ Master decision-making and data organization with if statements, loops, lists, a
 - Lists and list operations
 - Dictionaries and key-value pairs
 
-### Lab 3: Functions & File I/O 
+### Lab 3: Functions & File I/O
 Write reusable functions and work with files to prepare for real data analysis.
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CSC-2053-100-Fall25/python-labs-template/blob/main/Python_Functions_Files_Lab.ipynb)
@@ -37,6 +37,19 @@ Write reusable functions and work with files to prepare for real data analysis.
 - Reading and writing text files
 - Working with CSV files
 - Bridge to pandas
+
+### Lab 4: Introduction to Pandas & Data Analysis
+Analyze real Pennsylvania radio station data using pandas, Python's premier data analysis library.
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CSC-2053-100-Fall25/python-labs-template/blob/main/Python_Pandas_Intro_Lab.ipynb)
+
+**Topics:**
+- Loading data from CSV files
+- Exploring DataFrames (head, info, describe)
+- Selecting and filtering data
+- Calculating statistics and aggregations
+- Grouping data and creating new columns
+- Real-world data analysis with PA radio stations
 
 ---
 
@@ -53,22 +66,33 @@ Write reusable functions and work with files to prepare for real data analysis.
 
 ### For GitHub Classroom Assignments:
 
-1. **Accept the assignment** via the link provided in class
-2. This creates your personal repository
-3. **Complete the labs** in Google Colab
-4. **Save your work** back to your repository:
+#### Step 1: Accept the Assignment
+Click the **GitHub Classroom assignment link** provided in class. This creates your personal repository.
 
-#### Download and Upload
-- In Colab: File → Download → Download .ipynb
-- Clone your repository
-- git clone [your-repo-url]
-- cd [repo-name]
+#### Step 2: Complete the Lab
+Work through the lab in **Google Colab** and save your progress.
 
-  **Copy your .ipynb file into this folder**
-  
-- git add *.ipynb
-- git commit -m "Completed assignment"
-- git push 
+#### Step 3: Download Your Work
+In Google Colab: **File → Download → Download .ipynb**
+
+#### Step 4: Submit via Git
+Open Terminal (Mac) or Command Prompt (Windows) and run:
+
+```bash
+# Clone your assignment repository
+git clone [your-repo-url]
+cd [repo-name]
+
+# Copy your completed notebook into the repository folder
+# (Use cp on Mac/Linux or copy on Windows)
+
+# Stage, commit, and push your work
+git add *.ipynb
+git commit -m "Completed assignment"
+git push
+```
+
+**Need detailed Git instructions?** See the full [Git Submission Guide](../GitHub_Classroom_Submission_Guide.md) 
 
 ---
 
